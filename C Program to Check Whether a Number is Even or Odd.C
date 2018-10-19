@@ -6,11 +6,11 @@ int main()
     printf("Enter an integer: ");
     scanf("%d", &number);
 
-    // True if the number is perfectly divisible by 2
-    if(number % 2 == 0)
-        printf("%d is even.", number);
-    else
+    //if(0)-->false
+    if(number % 2)
         printf("%d is odd.", number);
+    else
+        printf("%d is even.", number);
 
     return 0;
 }
